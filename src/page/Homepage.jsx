@@ -15,13 +15,13 @@ function Homepage() {
       <Herosection/>
       <div className="m-auto w-7xl mt-5">
         {/* feature */}        <h1 className="font-extrabold text-3xl mb-4 hover:text-orange-500">Flashsale_Product</h1>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {flashsale.map((Item) => (
         <ProductCard key={Item.id} item={Item}/>
         ))}
       </div>
       <h1 className="text-3xl font-extrabold  mt-4 mb-4">Bestsaller</h1>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {bestsaller.map((Item) => (
         <ProductCard key={Item.id} item={Item}/>
         ))}
