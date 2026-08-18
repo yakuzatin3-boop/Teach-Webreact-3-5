@@ -23,6 +23,9 @@ function Homepage() {
       <div className="mx-auto max-w-7xl mt-5 px-4">
 
         {/* Flash Sale */}
+        <div className="p-5 bg-red-500 text-white">
+          <h1 className="text-5xl">Hello from User1</h1>
+        </div>
         <h1 className="font-extrabold text-3xl mb-4 hover:text-orange-500">
           Flash Sale Products
         </h1>
